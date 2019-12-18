@@ -14,6 +14,7 @@ public class ArmstrongNumber {
 
     public static boolean isArmstrong (int number){
         String num = number + "";
+        // test
         int power = num.length();
         int sum = 0;
 
