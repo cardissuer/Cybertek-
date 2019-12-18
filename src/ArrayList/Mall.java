@@ -14,6 +14,14 @@ public class Mall {
         zara.addItem(Item3);
 
         //System.out.println(zara.numberOfItems);
-        zara.seeInventory();
+        //zara.seeInventory();
+
+        //zara.addItem();
+        //zara.seeInventory();
+        //zara.sellItem("Coat");
+        //zara.seeInventory();
+        //System.out.println(zara.totalSales);
+        zara.returnItem("Jeans");
+        System.out.println(zara.totalSales);
     }
 }

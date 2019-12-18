@@ -24,11 +24,17 @@ public class twoDArrayLargestNumberND {
 
 
         //TODO write your code below
-
-
-
-
-
-
-    }//end main
+        int max=0;
+        for(int i=0 ;i<=rows-1;i++)
+        {
+            for(int j=0 ;j<=cols-1;j++)
+            {
+                max = arr[i][j];
+                if (arr[i][j]>max){
+                    max = arr[i][j];
+                }
+            }
+        }
+        System.out.println(max);
+    }
 }

@@ -2,7 +2,7 @@ package repl;
 
 import java.util.Arrays;
 
-public class HWMethodsWithArraysDeleteElementND {
+public class HWMethodsWithArraysDeleteElement {
         public static void main(String[] args) {
             int[] arr = {1, 2, -3, 4, -34, 55, 78, 90, 33, 10};
             System.out.println (deleteR(arr,2));

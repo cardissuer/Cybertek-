@@ -1,6 +1,6 @@
 package repl;
 
-public class HWMethodsWithStringMergeND {
+public class HWMethodsWithStringMerge {
     public static void main(String[] args) {
 
         System.out.println(mergeStrings("jesus", "christ"));

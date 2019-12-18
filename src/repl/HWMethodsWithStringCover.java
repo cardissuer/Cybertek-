@@ -1,6 +1,6 @@
 package repl;
 
-public class HWMethodsWithStringCoverND {
+public class HWMethodsWithStringCover {
 
     public static void main(String[] args) {
         System.out.println(coverString("java methods", "mf") ) ; //java [methods]
