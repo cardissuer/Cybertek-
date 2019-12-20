@@ -15,6 +15,6 @@ public class HWBadProducts {
     }
 
     public static void main(String[] args) {
-        System.out.println(badP(new int[]{1, 1, 1, 0, 0, 0}, 4));
+        System.out.println(badP(new int[]{1, 1, 1, 0, 0, 0}, 1));
     }
 }
