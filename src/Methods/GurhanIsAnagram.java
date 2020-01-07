@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class GurhanIsAnagram {
     public static void main(String[] args) {
-        System.out.println(isAnagram("greatness","massa"));
+        System.out.println(isAnagram("silent","listen"));
     }
 
     public static boolean isAnagram (String word1, String word2){

@@ -1,6 +1,6 @@
 package Abstraction2;
 
-public class Chrome extends Browser {
+public class Chrome extends Browser implements Bookmark {
 
     @Override
     public void launch() {
@@ -21,5 +21,15 @@ public class Chrome extends Browser {
     @Override
     public void close() {
         //super.close();
+    }
+
+    @Override
+    public void addUrlToBookmark(String url) {
+        System.out.println(url + " added to bookmarks");
+    }
+
+    @Override
+    public void removeUrlFromBookmark(String url) {
+        System.out.println(url + " removed from bookmarks");
     }
 }
