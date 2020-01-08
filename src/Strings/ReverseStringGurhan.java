@@ -9,7 +9,7 @@ public class ReverseStringGurhan {
         String sentence = scanner.nextLine();
         String reversed = "";
         for (int i=sentence.length()-1; i>=0;i--){
-            reversed = reversed + sentence.charAt(i) + "";
+            reversed = reversed + sentence.charAt(i);
         }
         System.out.println(reversed);
     }
