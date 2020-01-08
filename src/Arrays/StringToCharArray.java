@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
-public class SrtingArrayCharAt {
+public class StringToCharArray {
     public static void main(String[] args) {
         String str = "Java is a programming language";
         String [] regular = str.trim().toLowerCase().split (" ");
