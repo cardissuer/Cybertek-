@@ -1,8 +1,14 @@
 package CodingBat;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class lastChars {
     public static void main(String[] args) {
         System.out.println(lastChars("dog","cat"));
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\Cybertek PC\\Desktop\\Cybertek\\Selenium-java-3.141.59");
+        //WebDriver obj = new ChromeDriver();
+        //obj.get ("https://www.google.com");
     }
     public static String lastChars(String a, String b) {
         String result = "";
