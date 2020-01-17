@@ -13,7 +13,11 @@ public class SetExercise {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter 5 numbers");
 
-        Integer one = scanner.nextInt();
+        for (int i=0;i<5;i++){
+            numbers.add(scanner.nextInt());
+        }
+
+        /*Integer one = scanner.nextInt();
         Integer two = scanner.nextInt();
         Integer three = scanner.nextInt();
         Integer four = scanner.nextInt();
@@ -23,12 +27,12 @@ public class SetExercise {
         numbers.add(two);
         numbers.add(three);
         numbers.add(four);
-        numbers.add(five);
+        numbers.add(five);*/
 
         Iterator<Integer> it = numbers.iterator();
         while (it.hasNext()){
             Integer number = it.next();
-            if (number == one || number == three || number == five){
+            if (number%2 == 1){
                 it.remove();
             }
         }
