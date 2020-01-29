@@ -15,6 +15,12 @@ public class HasMapEx1 {
         System.out.println("Please enter the key number");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
+
+        if(!map.containsValue(number)) {
+            System.out.println("Invalid number");
+            System.exit(0);
+        }
+
         for (String key: map.keySet()){
             if (map.get(key) == number) {
                 System.out.println(key);
