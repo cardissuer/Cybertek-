@@ -1,4 +1,4 @@
-package benazir;
+package Benazir;
 
 public class annagram {
 

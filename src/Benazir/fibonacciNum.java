@@ -1,4 +1,4 @@
-package benazir;
+package Benazir;
 
 public class fibonacciNum {
     public static void main(String[] args) {

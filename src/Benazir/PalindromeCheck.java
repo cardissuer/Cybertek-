@@ -1,4 +1,4 @@
-package benazir;
+package Benazir;
 
 import java.util.Scanner;
 
