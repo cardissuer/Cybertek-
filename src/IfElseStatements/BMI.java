@@ -6,11 +6,10 @@ public class BMI {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your mass in kg");
         double mass = input.nextDouble();
-
         System.out.println("Enter your height in meters");
         double height = input.nextDouble();
-
-        double result = mass / height * height;
+        double result = mass / (height * height);
+        System.out.println(result);
 
         if (result < 18.5) {
             System.out.println("Underweight");
@@ -22,3 +21,4 @@ public class BMI {
             System.out.println("Obese");
         }
     }
+

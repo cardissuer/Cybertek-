@@ -7,7 +7,7 @@ public class StringArray3 {
         String [] names = {"James", "Sam", "Adam", "Elize", "Jamie", "Benzema", "Sandy"};
         for (int i=0; i < names.length; i++ ) {
             int last = names[i].length()-1;
-            System.out.println(names[i].charAt(last));
+            System.out.println("Last letter of " + i + " name is " + names[i].charAt(last));
         }
     }
 }

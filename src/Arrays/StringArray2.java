@@ -11,7 +11,7 @@ public class StringArray2 {
         String [] colors = {"white","black", "yellow", "red"};
         for (int i = 0; i < colors.length; i++) {
             String color = colors[i];
-            if (color.length() >= 4) {
+            if (colors.length >= 4) {
                 System.out.println("Color" + (i + 1) + " is " + color);
             }
         }

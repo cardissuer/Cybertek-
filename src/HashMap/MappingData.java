@@ -37,5 +37,8 @@ public class MappingData {
             data.add(map3);
             data.get(1).get("Job_id");
             System.out.println(data.get(1).get("Job_id"));
+            System.out.println(map1);
+            System.out.println(map2);
+            System.out.println(map3);
         }
     }
