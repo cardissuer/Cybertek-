@@ -20,3 +20,48 @@ public class SecondMax {
         return secondMax;
     }
 }
+
+// *Haven Life task*
+
+//import java.io.*;
+//        import java.util.*;
+//
+///*
+// * To execute Java, please define "static void main" on a class
+// * named Solution.
+// *
+// * If you need more classes, simply define them inline.
+// */
+//
+//// arr [1,4,7,8, 10, 2] example input
+//// example output 10, 8
+//
+//class Solution {
+//    public static void main(String[] args) {
+//
+//        System.out.println(findMax(new int [] {1,4,7,8, 10, 2}));
+//        System.out.println(secondMax(new int [] {1,4,7,8, 10, 2}));
+//
+//    }
+//
+//    public static int findMax (int [] arr){
+//        int max = arr[0];
+//        for (int i=0; i<arr.length; i++){
+//            if (max<arr[i]){
+//                max = arr[i];
+//
+//            }
+//        } return max;
+//    }
+//
+//    public static int secondMax (int [] arr){
+//        Arrays.sort(arr);
+//        int max = arr[arr.length-1];
+//        int secondMax = arr[arr.length-2];
+//        int [] result = new int [2];
+//        max.add(result);
+//        secondMax.add(result);
+//        return result;
+//    }
+//}
+//
