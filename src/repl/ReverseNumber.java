@@ -10,6 +10,7 @@ public class ReverseNumber {
         // For example, if the input is 12345, the output should be 54321
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter any number");
         String num = scanner.nextLine();
         String res = "";
         for (int i=1;i<=num.length();i++) {
