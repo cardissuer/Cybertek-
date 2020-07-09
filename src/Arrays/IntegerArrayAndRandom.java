@@ -11,7 +11,8 @@ public class IntegerArrayAndRandom {
         for (int i=0; i<50; i++){
             int number = random.nextInt((100) + 1);
             numbers[i]= number;
-            System.out.println(Arrays.toString(numbers));
+//            System.out.println(Arrays.toString(numbers));
         }
+        System.out.println(Arrays.toString(numbers));
     }
 }

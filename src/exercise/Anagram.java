@@ -1,11 +1,8 @@
 package exercise;
-
 public class Anagram {
-
     public static void main(String[] args) {
         System.out.println(AnagramCheck("silent", "lentis"));
     }
-
     public static boolean AnagramCheck(String first, String second) {
         if (first.length() != second.length()) {
             return false;
