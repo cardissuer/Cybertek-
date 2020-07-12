@@ -8,6 +8,7 @@ public class wordEnds {
     public static void main(String[] args) {
         System.out.println(wordEnds("123XYgh", "XY"));
         //System.out.println(mapAB2(Map (("a", "say"),("b", "stay"));
+        System.out.println(worldEnds("PObuildPOjesusPO", "PO"));
     }
 
     public static String wordEnds(String str, String word) {
@@ -26,5 +27,24 @@ public class wordEnds {
         {
             mapAB2.remove ("a", "b");
         } return mapAB2;
+    }
+
+    public static String worldEnds(String str, String word)
+    {
+        int len = str.length();
+        int wLen = word.length();
+        int pos = str.indexOf(word);
+        int i = 0;
+        StringBuilder stbuild = new StringBuilder(len);
+        while(pos != -1)
+        {
+            i = pos + wLen;
+            if(pos >= 1)
+                stbuild.append(str.charAt(pos-1));
+            if(i < len)
+                stbuild.append(str.charAt(pos+wLen));
+            pos = str.indexOf(word, i);
+        }
+        return stbuild.toString();
     }
 }
