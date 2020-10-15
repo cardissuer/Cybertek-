@@ -13,7 +13,9 @@ public class miniMaxSum {
         int min=0, max = 0;
         for (int i=0; i<arr.length-1;i++){
         min+=arr[i];
-        max+=arr[i+1];
+        }
+        for (int i=1; i<arr.length;i++) {
+            max += arr[i];
         }
         System.out.print(min + " " + max);
         }
