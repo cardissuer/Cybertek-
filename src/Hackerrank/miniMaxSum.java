@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class miniMaxSum {
 
     public static void main(String[] args) {
-        miniMaxSum(new int[]{1,2,3,4,5});
+        miniMaxSum(new int[]{10,12,18,16,14});
     }
 
     static void miniMaxSum(int[] arr) {
