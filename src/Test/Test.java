@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(Reverse("feature"));
+//        System.out.println(Reverse("feature"));
 
-//        System.out.println(Palindrome("regexeger"));
+//        System.out.println(Palindrome("regexegert"));
 
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Please enter the range");
@@ -81,22 +81,27 @@ public class Test {
         return minValue + maxValue;
     }
 
-    public static boolean Palindrome (String pal){
-    for (int i=0; i<pal.length()-1/2; i++){
-        if (pal.toLowerCase().charAt(i) == pal.toLowerCase().charAt(pal.length()-1-i)) return true;
-    }
-    return false;
+    public static boolean Palindrome(String pal) {
+        for (int i = 0; i < pal.length() - 1 / 2; i++) {
+            if (pal.toLowerCase().charAt(i) == pal.toLowerCase().charAt(pal.length() - 1 - i)) return true;
+        }
+        return false;
     }
 
-    public static String Reverse (String straight){
+    public static String Reverse(String straight) {
 //        Scanner scanner = new Scanner (System.in);
 //        System.out.println("Please enter the word");
 //        String word = scanner.nextLine();
         String reverse = "";
-        for (int i = straight.length()-1;i>=0; i--){
+        for (int i = straight.length() - 1; i >= 0; i--) {
             reverse += straight.charAt(i);
         }
         return reverse;
     }
 
+//    public static boolean Anagram (String wordFirst, wordSecond){
+//        String wordFirst = "silent";
+//        String wordSecond = "lentis";
+//        String [] result = new String[wordFirst.split("".toString())];
+//        for (int i=0;)
 }
