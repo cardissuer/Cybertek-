@@ -20,17 +20,20 @@ public class TestingCoffee {
         System.out.println("char" + c2.C);
         System.out.println();*/
 
-        Coffee c3 = new Coffee("Espresso", false, true);
-        System.out.println("size is" + c3.size);
-        System.out.println("type is" + c3.type);
-        System.out.println("with Milk" + c3.withMilk);
-        System.out.println("with Sugar" + c3.withSugar);
-        System.out.println("char" + c3.C);
-        System.out.println();
+//        Coffee c3 = new Coffee("Espresso", false, true);
+//        System.out.println("size is" + c3.size);
+//        System.out.println("type is" + c3.type);
+//        System.out.println("with Milk" + c3.withMilk);
+//        System.out.println("with Sugar" + c3.withSugar);
+//        System.out.println("char" + c3.C);
+//        System.out.println();
+//
+//        Order order1 = new Order (c3);
+//        System.out.println(order1.quantity);
+//        System.out.println(order1.size);
+//        System.out.println(order1.coffee);
 
-        Order order1 = new Order (c3);
-        System.out.println(order1.quantity);
-        System.out.println(order1.size);
-        System.out.println(order1.coffee);
+        Latte l1 = new Latte("moccachino", true, true);
+        l1.say();
     }
 }
